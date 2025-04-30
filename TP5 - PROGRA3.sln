@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP5 - PROGRA3", "TP5 - PROGRA3\TP5 - PROGRA3.csproj", "{71490ABE-01F2-4525-81D4-88071E8D174E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71490ABE-01F2-4525-81D4-88071E8D174E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71490ABE-01F2-4525-81D4-88071E8D174E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71490ABE-01F2-4525-81D4-88071E8D174E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71490ABE-01F2-4525-81D4-88071E8D174E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B52B2F7-F5BF-41FA-A5DE-AF90DD0A90EB}
+	EndGlobalSection
+EndGlobal
