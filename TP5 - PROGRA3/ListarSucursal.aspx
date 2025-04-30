@@ -12,6 +12,8 @@
         <div style="margin-left: 400px">
             <asp:Label ID="lblListaTitulo" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="XX-Large" ForeColor="#0066FF" Text="¡LISTA DE SUCURSALES!"></asp:Label>
         </div>
+        <asp:GridView ID="GridViewListar" runat="server">
+        </asp:GridView>
     </form>
 </body>
 </html>

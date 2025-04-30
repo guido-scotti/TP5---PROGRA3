@@ -4,52 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<link rel="stylesheet" type="text/css" href="styles.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-        .auto-style2 {
-            width: 205px;
-        }
-        .auto-style6 {
-            width: 205px;
-            height: 23px;
-        }
-        .auto-style8 {
-            height: 23px;
-        }
-        .auto-style9 {
-            width: 186px;
-        }
-        .auto-style10 {
-            width: 186px;
-            height: 23px;
-        }
-        .auto-style13 {
-            width: 186px;
-            height: 61px;
-        }
-        .auto-style14 {
-            width: 205px;
-            height: 61px;
-        }
-        .auto-style16 {
-            height: 61px;
-        }
-        .auto-style17 {
-            width: 240px;
-        }
-        .auto-style18 {
-            width: 240px;
-            height: 23px;
-        }
-        .auto-style19 {
-            width: 240px;
-            height: 61px;
-        }
-    </style>
 </head>
 <body>
     <form id="form1" runat="server">

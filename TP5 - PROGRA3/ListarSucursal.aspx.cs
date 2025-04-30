@@ -11,7 +11,13 @@ namespace TP5___PROGRA3
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			if (!IsPostBack)
+			{
+				var db = new DBRepository();
+				var query = "SELECT Id_Sucursal, NombreSucursal, Direccion, DescripcionSucursal, Provincia.DescripcionProvincia FROM Sucursal INNER JOIN Provincia ON Sucursal.Id_Provincia = Provincia.Id_Provincia";
+                GridViewListar.DataSource = db.ListarSucursal(query);
+				GridViewListar.DataBind();
+            }
 		}
 	}
 }
