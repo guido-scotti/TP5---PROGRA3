@@ -23,7 +23,7 @@ namespace TP5___PROGRA3
 
         private void CargarProvincias()
         {
-            string connectionString = "Data Source=DESKTOP-GUU4RQA\\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True;TrustServerCertificate=True";
+            string connectionString = @"Data Source=CIRIACO\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True";
             // Reemplazá con tu cadena de conexión real si es distinta
 
             using (SqlConnection conn = new SqlConnection(connectionString))

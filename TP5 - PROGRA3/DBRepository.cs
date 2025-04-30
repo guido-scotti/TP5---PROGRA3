@@ -9,7 +9,7 @@ namespace TP5___PROGRA3
 {
     public class DBRepository
     {
-        private string DbConnection = @"";
+        private string DbConnection = @"Data Source=CIRIACO\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True";
         //Remplazar por "Data Source=localhost\\sqlexpress; Initial Catalog=BDSucursales;Integrated Security = True"; 
         //Antes de entregar
 
