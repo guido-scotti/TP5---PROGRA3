@@ -69,10 +69,12 @@
   <ItemGroup>
     <Content Include="EliminarSucursal.aspx" />
     <Content Include="ListarSucursal.aspx" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="AgregarSucursal.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBRepository.cs" />
     <Compile Include="EliminarSucursal.aspx.cs">
       <DependentUpon>EliminarSucursal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
