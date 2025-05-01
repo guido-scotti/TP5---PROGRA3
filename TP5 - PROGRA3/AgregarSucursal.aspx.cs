@@ -17,33 +17,8 @@ namespace TP5___PROGRA3
 		{
             if (!IsPostBack)
             {
-                CargarProvincias();
-            }
-        }
-
-        private void CargarProvincias()
-        {
-            string connectionString = @"Data Source=CIRIACO\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True";
-            // Reemplazá con tu cadena de conexión real si es distinta
-
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                string query = "SELECT Id_Provincia, DescripcionProvincia FROM Provincia";
-
-                SqlCommand cmd = new SqlCommand(query, conn);
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-
-                conn.Open();
-                da.Fill(dt);
-
-                ddlProvincias.DataSource = dt;
-                ddlProvincias.DataTextField = "DescripcionProvincia";  // Lo que se muestra
-                ddlProvincias.DataValueField = "Id_Provincia";     // Lo que se guarda como valor
-                ddlProvincias.DataBind();
-
-                // Opcional: agregás un ítem por defecto
-                ddlProvincias.Items.Insert(0, new ListItem("-- Seleccionar provincia --", ""));
+                DBRepository dbRepository = new DBRepository();
+                dbRepository.CargarProvincias(ddlProvincias);
             }
         }
 
@@ -58,10 +33,29 @@ namespace TP5___PROGRA3
             if (string.IsNullOrEmpty(txtSucursal.Text) || string.IsNullOrEmpty(txtDireccion.Text) || string.IsNullOrEmpty(txtDescripcion.Text))
             {
                 lblMensaje.Text = "Por favor, completá todos los campos.";
+                lblMensaje.ForeColor = System.Drawing.Color.Red;
                 return;
             }
 
-            lblMensaje.Text = "";
+            if (ddlProvincias.SelectedValue == "0" || string.IsNullOrEmpty(ddlProvincias.SelectedValue))
+            {
+                lblMensaje.Text = "Por favor, seleccioná una provincia.";
+                lblMensaje.ForeColor = System.Drawing.Color.Red;
+                return;
+
+            }
+
+            DBRepository dbRepository = new DBRepository();
+            dbRepository.InsertarSucursal(txtSucursal.Text, txtDescripcion.Text, txtDireccion.Text, ddlProvincias.SelectedValue);
+
+            lblMensaje.Text = "¡La sucursal se ha agregado con éxito!";
+            lblMensaje.ForeColor = System.Drawing.Color.Green;
+
+            txtSucursal.Text = "";
+            txtDireccion.Text = "";
+            txtDescripcion.Text = "";
+            ddlProvincias.SelectedIndex = 0;
         }
+
     }
 }
