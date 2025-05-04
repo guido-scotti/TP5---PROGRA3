@@ -7,6 +7,112 @@
 <link rel="stylesheet" type="text/css" href="styles.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            height: 29px;
+        }
+        .auto-style2 {
+            height: 30px;
+        }
+        .auto-style3 {
+            height: 46px;
+        }
+        .auto-style4 {
+            height: 37px;
+        }
+        .auto-style5 {
+            height: 17px;
+        }
+        .auto-style6 {
+            height: 23px;
+            width: 178px;
+        }
+        .auto-style8 {
+            width: 10px;
+        }
+        .auto-style9 {
+            height: 37px;
+            width: 10px;
+        }
+        .auto-style10 {
+            height: 46px;
+            width: 10px;
+        }
+        .auto-style11 {
+            height: 17px;
+            width: 239px;
+        }
+        .auto-style12 {
+            height: 20px;
+            width: 239px;
+        }
+        .auto-style13 {
+            width: 239px;
+        }
+        .auto-style14 {
+            height: 37px;
+            width: 239px;
+        }
+        .auto-style15 {
+            height: 46px;
+            width: 239px;
+        }
+        .auto-style17 {
+            height: 39px;
+        }
+        .auto-style18 {
+        }
+        .auto-style21 {
+            height: 20px;
+            width: 169px;
+        }
+        .auto-style22 {
+            width: 169px;
+        }
+        .auto-style23 {
+            height: 37px;
+        }
+        .auto-style24 {
+            height: 46px;
+        }
+        .auto-style25 {
+            height: 17px;
+        }
+        .auto-style26 {
+            height: 30px;
+            width: 178px;
+        }
+        .auto-style27 {
+            height: 37px;
+            width: 178px;
+        }
+        .auto-style28 {
+            height: 46px;
+            width: 178px;
+        }
+        .auto-style29 {
+            height: 17px;
+            width: 178px;
+        }
+        .auto-style32 {
+            width: 208px;
+        }
+        .auto-style33 {
+            height: 39px;
+            width: 208px;
+        }
+        .auto-style34 {
+            height: 20px;
+            width: 208px;
+        }
+        .auto-style36 {
+            height: 20px;
+        }
+        .auto-style37 {
+            height: 20px;
+            width: 178px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -15,59 +121,58 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">
+                <td class="auto-style26">
                     <asp:HyperLink ID="hypAgregarSucursal" runat="server" NavigateUrl="~/AgregarSucursal.aspx" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Font-Underline="True" ForeColor="#0066FF">&lt; Agregar sucursal &gt;</asp:HyperLink>
                 </td>
-                <td class="auto-style17">&nbsp;<asp:HyperLink ID="hypListarSucursal" runat="server" NavigateUrl="~/ListarSucursal.aspx" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Font-Underline="True" ForeColor="#0066FF">&lt; Listado de sucursales &gt;</asp:HyperLink>
+                <td class="auto-style33"><asp:HyperLink ID="hypListarSucursal" runat="server" NavigateUrl="~/ListarSucursal.aspx" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Font-Underline="True" ForeColor="#0066FF">&lt; Listado de sucursales &gt;</asp:HyperLink>
                 </td>
-                <td>
+                <td class="auto-style22">
                     <asp:HyperLink ID="hypEliminarSucursal" runat="server" NavigateUrl="~/EliminarSucursal.aspx" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Font-Underline="True" ForeColor="#0066FF">&lt; Eliminar sucursal &gt;</asp:HyperLink>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style26">&nbsp;</td>
+                <td class="auto-style33">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style2" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="lblGrupo9" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="X-Large" Text="GRUPO N°9" Font-Underline="True" ForeColor="#CC0000"></asp:Label>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">
+                <td class="auto-style26">&nbsp;</td>
+                <td class="auto-style33">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style2" colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="lblAgregarSucursal" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Large" Text="AGREGAR SUCURSAL" Font-Underline="True"></asp:Label>
                 </td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -75,130 +180,127 @@
             <tr>
                 <td class="auto-style10"></td>
                 <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style18"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
+                <td class="auto-style32"></td>
+                <td class="auto-style22"></td>
+                <td class="auto-style13"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style4">
                     <br />
                 </td>
-                <td class="auto-style2">
+                <td class="auto-style27">
                     <asp:Label ID="lblNombreSucursal" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Text="Nombre de sucursal: "></asp:Label>
                     <br />
                 </td>
-                <td class="auto-style17">
+                <td class="auto-style23" colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="txtSucursal" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium"></asp:TextBox>
                     <br />
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style14"></td>
+                <td class="auto-style4"></td>
+                <td class="auto-style4"></td>
+                <td class="auto-style4"></td>
             </tr>
             <tr>
-                <td class="auto-style13">
+                <td class="auto-style3">
                     <br />
                 </td>
-                <td class="auto-style14">
-                    <br />
+                <td class="auto-style28">
                     <asp:Label ID="lblDescripcion" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Text="Descripcion: "></asp:Label>
                     <br />
                 </td>
-                <td class="auto-style19">
+                <td class="auto-style24" colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="txtDescripcion" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium"></asp:TextBox>
                     <br />
                 </td>
-                <td class="auto-style16"></td>
-                <td class="auto-style16"></td>
-                <td class="auto-style16"></td>
-                <td class="auto-style16"></td>
-                <td class="auto-style16"></td>
+                <td class="auto-style15"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style5">
                     <br />
                 </td>
-                <td class="auto-style2">
-                    <br />
+                <td class="auto-style29">
                     <asp:Label ID="lblProvincia" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Text="Provincia: "></asp:Label>
                     <br />
                 </td>
-                <td class="auto-style17">
-                    <asp:DropDownList ID="ddlProvincias" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Height="30px" Width="191px">
-                        <asp:ListItem>&lt; Seleccione &gt;</asp:ListItem>
+                <td class="auto-style25" colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:DropDownList ID="ddlProvincias" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Height="38px" Width="191px">
+                        <asp:ListItem Selected="False" Value = "0" >&lt; Seleccione &gt; </asp:ListItem>
                     </asp:DropDownList>
                     <br />
                     <br />
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style11"></td>
+                <td class="auto-style5"></td>
+                <td class="auto-style5"></td>
+                <td class="auto-style5"></td>
             </tr>
             <tr>
                 <td class="auto-style9">
                     <br />
                 </td>
-                <td class="auto-style2">
-                    <br />
+                <td class="auto-style26">
                     <asp:Label ID="lblDireccion" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" Text="Direccion: "></asp:Label>
                     <br />
                 </td>
-                <td class="auto-style17">
+                <td class="auto-style17" colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="txtDireccion" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" OnTextChanged="txtDireccion_TextChanged"></asp:TextBox>
                     <br />
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style10"></td>
-                <td class="auto-style6"></td>
-                <td class="auto-style18"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
+                <td class="auto-style36"></td>
+                <td class="auto-style37"></td>
+                <td class="auto-style34"></td>
+                <td class="auto-style21"></td>
+                <td class="auto-style12"></td>
+                <td class="auto-style36"></td>
+                <td class="auto-style36"></td>
+                <td class="auto-style36"></td>
             </tr>
             <tr>
                 <td class="auto-style10"></td>
                 <td class="auto-style6"><asp:Button ID="btnAceptar" runat="server" BorderStyle="Solid" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" ForeColor="#33CC33" Text="Aceptar" OnClick="btnAceptar_Click" />
                 </td>
-                <td class="auto-style18">
+                <td class="auto-style18" colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="lblMensaje" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" ForeColor="Red"></asp:Label>
                 </td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
+                <td class="auto-style13"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+                <td class="auto-style33">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+                <td class="auto-style33">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -206,19 +308,19 @@
             <tr>
                 <td class="auto-style10"></td>
                 <td class="auto-style6"></td>
-                <td class="auto-style18"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
+                <td class="auto-style32"></td>
+                <td class="auto-style22"></td>
+                <td class="auto-style13"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+                <td class="auto-style33">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -226,19 +328,19 @@
             <tr>
                 <td class="auto-style10"></td>
                 <td class="auto-style6"></td>
-                <td class="auto-style18"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
+                <td class="auto-style32"></td>
+                <td class="auto-style22"></td>
+                <td class="auto-style13"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+                <td class="auto-style33">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -246,19 +348,19 @@
             <tr>
                 <td class="auto-style10"></td>
                 <td class="auto-style6"></td>
-                <td class="auto-style18"></td>
-                <td class="auto-style8"></td>
-                <td class="auto-style8"></td>
+                <td class="auto-style32"></td>
+                <td class="auto-style22"></td>
+                <td class="auto-style13"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
                 <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style17">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+                <td class="auto-style33">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
