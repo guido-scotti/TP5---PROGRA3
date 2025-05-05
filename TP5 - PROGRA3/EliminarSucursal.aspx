@@ -10,8 +10,16 @@
 <body>
     <form id="form1" runat="server">
         <div style="margin-left: 440px">
-            <asp:Label ID="lblEliminarTitulo" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="XX-Large" ForeColor="Red" Text="¡ELIMINAR SUCURSALES!"></asp:Label>
         </div>
+        <strong id="label1" style="color: #008000; font-size: 23px; font-weight: bold; font-style: italic;">Eliminar sucursal</strong><p>
+&nbsp;<asp:Label ID="label2" runat="server" Text="Label">Ingresar Id sucursal</asp:Label>&nbsp;
+            <asp:TextBox ID="TextBox1" runat="server" Width="200px" AutoCompleteType="Disabled"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Eliminar" />
+        </p>
+        <asp:Label ID="label3" runat="server" Text=""></asp:Label>
     </form>
+    <p>
+        &nbsp;</p>
 </body>
 </html>

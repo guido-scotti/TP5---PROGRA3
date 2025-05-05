@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -10,7 +11,7 @@ namespace TP5___PROGRA3
 {
     public class DBRepository
     {
-        private string DbConnection = @"Data Source=DESKTOP-GUU4RQA\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        private string DbConnection = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         //Remplazar por "Data Source=localhost\\sqlexpress; Initial Catalog=BDSucursales;Integrated Security = True"; 
         //Antes de entregar
 
@@ -67,5 +68,25 @@ namespace TP5___PROGRA3
             }
         }
         // HACER METODO ELIMINAR
+        public Boolean EliminarSucursal(String idSucursal)
+        {
+
+            SqlConnection conn = new SqlConnection(DbConnection);
+            
+                conn.Open();
+                String query = "Delete From Sucursal WHERE Id_Sucursal = " + idSucursal; ;
+                SqlCommand cmd = new SqlCommand(query, conn);
+                int columnasAfectadas = cmd.ExecuteNonQuery();
+                conn.Close();
+
+
+
+            if (columnasAfectadas.Equals(0))
+            {
+                return false;
+            }
+            return true;
+        }
+
     }
 }
